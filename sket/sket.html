@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="../P.png" />
+    <title>Himaster UIGM</title>
+    <link rel="stylesheet" href="sket.css" />
+  </head>
+  <body>
+    <div id="navbar1" class="navbar">
+      <div class="logo-container">
+        <img src="../P.png" alt="Logo" class="logo" />
+        <span class="org-name">Himaster</span>
+      </div>
+      <div class="menu-container">
+        <a href="../berita/berita.html">Berita</a>
+        <a href="../index.html">Profil</a>
+        <select onchange="window.location.href=this.value">
+          <option value="">Pilih Divisi</option>
+          <option value="../wirau/wirau.html">Kewirausahaan</option>
+          <option value="../media/media.html">Media Kreatif</option>
+          <option value="../humas/humas.html">Humas</option>
+          <option value="../pubdok/pubdok.html">Pubdok</option>
+          <option value="../psdm/psdm.html">PSDM</option>
+          <option value="../lapangan/lapangan.html">Lapangan</option>
+          <option value="../opra/opra.html">Operasional</option>
+          <option value="../it/it.html">IT</option>
+          <option value="./sket.html">Sekretaris</option>
+          <option value="../bendahara/bendahara.html">Bendahara</option>
+        </select>
+        <span class="openSidebar" onclick="openNav()">&#9776;</span>
+      </div>
+    </div>
+
+    <div id="navbar2" class="navbar">
+      <div class="logo-container">
+        <img src="../P.png" alt="Logo" class="logo" />
+        <span class="org-name">Himaster</span>
+      </div>
+      <div class="menu-container">
+        <a href="../berita/berita.html">Berita</a>
+        <a href="../index.html">Profil</a>
+        <select onchange="window.location.href=this.value">
+          <option value="">Pilih Divisi</option>
+          <option value="../wirau/wirau.html">Kewirausahaan</option>
+          <option value="../media/media.html">Media Kreatif</option>
+          <option value="../humas/humas.html">Humas</option>
+          <option value="../pubdok/pubdok.html">Pubdok</option>
+          <option value="../psdm/psdm.html">PSDM</option>
+          <option value="../lapangan/lapangan.html">Lapangan</option>
+          <option value="../opra/opra.html">Operasional</option>
+          <option value="../it/it.html">IT</option>
+          <option value="./sket.html">Sekretaris</option>
+          <option value="../bendahara/bendahara.html">Bendahara</option>
+        </select>
+        <span class="openSidebar" onclick="openNav()">&#9776;</span>
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="../berita/berita.html">Berita</a>
+      <a href="../index.html">Profil</a>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown()">
+          Pilih Divisi
+          <span class="arrow"></span>
+        </button>
+        <div id="divisiDropdown" class="dropdown-content">
+          <a href="../wirau/wirau.html">Kewirausahaan</a>
+          <a href="../media/media.html">Media Kreatif</a>
+          <a href="../humas/humas.html">Humas</a>
+          <a href="../pubdok/pubdok.html">Pubdok</a>
+          <a href="../psdm/psdm.html">PSDM</a>
+          <a href="../lapangan/lapangan.html">Lapangan</a>
+          <a href="../opra/opra.html">Operasional</a>
+          <a href="../it/it.html">IT</a>
+          <a href="../sket/sket.html">Sekretaris</a>
+          <a href="../bendahara/bendahara.html">Bendahara</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="content">
+      <div class="card-container">
+        <div class="card card-1">
+          <img src="../P.png" alt="Logo" class="logo" />
+          <h2>Sekretaris</h2>
+          <p>
+            Hai, kami adalah Sekretaris yang bertugas Menyusun Agenda Rapat dan
+            mengatur jadwal rapat rutin serta menggirim undangan kepada
+            anggota,dan menyusun laporan administratif untuk kegiatan yang telah
+            dilaksanakan
+          </p>
+        </div>
+        <div class="card card-2">
+          <div class="number" id="number">0</div>
+          <h2>Anggota</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="id-card-container">
+      <div class="id-card">
+        <div class="id-card-photo">
+          <img src="../p.png" alt="Foto Profil" />
+        </div>
+        <div class="id-card-content">
+          <h2>Manhayati</h2>
+          <p class="id-card-title">Sekretaris 1</p>
+          <p class="id-card-description">2022- Sistem Komputer</p>
+          <div class="card-social-icons">
+            <a
+              href="https://www.instagram.com/himaster.uigm?igsh=ejN0b3g1dzd6eHpl"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                width="20"
+                height="20"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="id-card-container">
+      <div class="id-card">
+        <div class="id-card-photo">
+          <img src="../p.png" alt="Foto Profil" />
+        </div>
+        <div class="id-card-content">
+          <h2>Faradita Dwi Wahyuni</h2>
+          <p class="id-card-title">Sekretaris</p>
+          <p class="id-card-description">2022- Sistem Komputer</p>
+          <div class="card-social-icons">
+            <a
+              href="https://www.instagram.com/himaster.uigm?igsh=ejN0b3g1dzd6eHpl"
+              target="_blank"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                width="20"
+                height="20"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Kontak Kami</h3>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4849267770833!2d104.73826907361723!3d-2.9628609970133155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75cdb9147ded%3A0xbc5023001e3a77b1!2sUniversitas%20Indo%20Global%20Mandiri%20Palembang!5e0!3m2!1sid!2sid!4v1722508247587!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <p>Jl. Jend. A. Yani No.3, Palembang, Sumatera Selatan 30263</p>
+          <p>
+            Email: <a href="mailto:himaster@uigm.ac.id">himaster@uigm.ac.id</a>
+          </p>
+        </div>
+        <div class="social-media">
+          <h3>Ikuti Kami</h3>
+          <a
+            href="https://www.instagram.com/himaster.uigm?igsh=ejN0b3g1dzd6eHpl"
+            target="_blank"
+            >Instagram</a
+          >
+          <a
+            href="https://www.tiktok.com/@himaster.uigm?_t=8ol324eNSkq&_r=1"
+            target="_blank"
+            >TikTok</a
+          >
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Website Himaster UIGM.</p>
+      </div>
+    </footer>
+    <script src="sket.js"></script>
+  </body>
+</html>
